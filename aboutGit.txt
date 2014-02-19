@@ -1,0 +1,24 @@
+Gitについて
+http://www.slideshare.net/kaitoyuuki3/git-28179797
+http://www.slideshare.net/kotas/git-15276118
+
+今のブランチを確認
+$ git branch
+
+ブランチ作成
+$ git branch （ブランチ名）
+
+ブランチの変更
+$ git checkout （ブランチ名）
+
+基本的な運用
+1.作業前に変更を反映
+  $ git pull
+
+2.作業が終わったらすぐにコミット
+  git add.
+  git commit -m "message"
+
+3.帰る前にリモートへ反映
+  git push
+  git pull
